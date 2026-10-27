@@ -15,5 +15,5 @@ jobs:
       - run: gradle build
       - uses: actions/upload-artifact@v4
         with:
-          name: GurzGuard
-          path: build/libs/GurzGuard.jar
+          name: BGPs_Vanilla_Plus_Addon
+          path: build/libs/BGPs_Vanilla_Plus_Addon.jar
