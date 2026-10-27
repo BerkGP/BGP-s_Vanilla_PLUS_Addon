@@ -1,0 +1,5 @@
+name: GurzGuard
+version: 1.0.0
+main: tr.gurz.guard.GurzGuard
+api-version: "26.3"
+description: BGP's Vanilla+ Addon
