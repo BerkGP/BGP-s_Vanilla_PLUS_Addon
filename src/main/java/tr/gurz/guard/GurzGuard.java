@@ -46,6 +46,7 @@ public final class GurzGuard extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+        new RecipeBook(this).register();
         getLogger().info("BGP's Vanilla+ Addon aktif.");
     }
 
