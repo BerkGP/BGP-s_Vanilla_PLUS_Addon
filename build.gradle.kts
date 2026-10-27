@@ -11,4 +11,4 @@ dependencies {
 }
 
 java { toolchain.languageVersion.set(JavaLanguageVersion.of(25)) }
-tasks.jar { archiveFileName.set("GurzGuard.jar") }
+tasks.jar { archiveFileName.set("BGPs_Vanilla_Plus_Addon.jar") }
